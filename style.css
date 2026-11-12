@@ -7,8 +7,6 @@
 figure {
     text-align: center;
     border-radius: 50%;
-    border: 40px solid;
-    color: var(--blue);
 }
 
 img {
@@ -16,6 +14,7 @@ img {
     border-radius: 50%;
     height: 402px;
     width: 402px;
+    cursor: pointer;
 
 
 }
@@ -74,13 +73,14 @@ form {
     border-radius: 12px;
 }
 
-label{
+label {
     display: block;
     font-weight: bold;
     margin-top: 12px;
 }
 
-input, select {
+input,
+select {
     width: 100%;
     padding: 4px;
     border: solid;
@@ -88,7 +88,7 @@ input, select {
     box-sizing: border-box;
 }
 
-main{
+main {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 16px;
@@ -103,5 +103,22 @@ button {
     border-radius: 8px;
     cursor: pointer;
 
+}
 
+@media (max-width: 600px){
+    body {
+        flex-direction: column;
+    }
+
+
+#apresentação #objetivo #futuro{
+    width: auto;
+}
+header{
+    text-align: center;
+}
+}
+
+table{
+    background: var(--blue);
 }
