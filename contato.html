@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,72 @@
 <body>
     <h1>Contatos Pessoais: </h1>
     <a href="pedrohenriquedasilva200690@gmail.com" target="_blanck" rel="noopener">E-mail Pessoal</a><br><br>
-    <a href="https://www.linkedin.com/in/pedro-grass/" target="_blanck" rel="noopener">Linkedin</a><br><br>
-    <a href="https://www.instagram.com/pedro_grass/" target="_blanck" rel="noopener">Instagram Pessoal</a><br>
+    <a href="https://www.linkedin.com/in/pedro-grass/">Linkedin</a><br><br>
+    <a href="https://www.instagram.com/pedro_grass/">Instagram Pessoal</a><br>
 
     <h2>Canais: </h2>
     <a href="index.html">Página Principal</a> |
     <a href="projetos.html">Projetos</a>
+
+    <h2>Formulário</h2>
+    <p>Preencha o formulário abaixo para entrar em contato da melhor forma possível</p>
+    <form action="#" method="POST">
+        <!-- Campo 1: Texto -->
+        <div>
+            <label for="nome">Nome Completo:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        </div>
+        <br>
+
+        <!-- Campo 2: E-mail -->
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+        <br>
+
+        <!-- Campo 3: Telefone -->
+        <div>
+            <label for="telefone">Telefone / WhatsApp:</label><br>
+            <input type="tel" id="telefone" name="telefone" placeholder="(00) 90000-0000">
+        </div>
+        <br>
+        
+
+        <!-- Campo 4: Empresa ou Instituição -->
+        <div>
+            <label for="empresa">Empresa ou Instituição:</label><br>
+            <input type="text" id="empresa" name="empresa" placeholder="Opcional">
+        </div>
+        <br>
+
+        <!-- Campo 5: Lista de seleção (Select) -->
+        <div>
+            <label for="assunto">Motivo do Contato:</label><br>
+            <select id="assunto" name="assunto" required>
+                <option value="">Selecione uma opção...</option>
+                <option value="emprego">Oportunidade de Emprego / Estágio</option>
+                <option value="freelance">Orçamento de Projeto (Freelance)</option>
+                <option value="networking">Networking / Parceria</option>
+                <option value="outro">Outros Assuntos</option>
+            </select>
+        </div>
+        <br>
+
+        <!-- Campo 6: Área de texto grande (Textarea) -->
+        <div>
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" cols="30" placeholder="Escreva sua mensagem aqui..."
+                required></textarea>
+        </div>
+        <br>
+
+        <!-- Botão de envio -->
+        <button type="submit">Enviar Mensagem</button>
+    </form>
+
+
+
 
 </body>
 
