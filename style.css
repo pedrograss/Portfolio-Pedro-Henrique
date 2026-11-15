@@ -20,7 +20,7 @@ img {
 }
 
 body {
-    background-color: var(--lbrown);
+    background-color: var(--blue);
     font-family: Arial, sans-serif;
     padding: 20px;
     margin: 5%;
@@ -30,40 +30,60 @@ body {
 nav {
     text-align: center;
     text-transform: uppercase;
+    font-size: 20px;
+}
+
+.nome {
+    text-align: center;
+}
+
+.mensagem {
+    text-align: right;
+    border-radius: 12%;
+    padding: 10px 18px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    text-align: center;
-    background-color: var(--blue);
+    text-align: left;
     border-radius: 12%;
     padding: 10px 18px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 h2 {
-    background-color: var(--blue);
     text-align: center;
     text-transform: uppercase;
     border-radius: 12%;
     padding: 10px 18px;
+    font-size: 30px;
 }
 
 h3 {
-    background-color: var(--blue);
     text-align: center;
     text-transform: uppercase;
     border-radius: 12%;
     padding: 10px 18px;
+    font-size: 30px;
 }
 
 footer {
     text-align: center;
     text-transform: uppercase;
-    color: yellow
+    color: greenyellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
     margin-right: 10%;
+    font-size: 30px;
+}
+
+ul {
+    font-size: 30px;
 }
 
 form {
@@ -105,20 +125,21 @@ button {
 
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px) {
     body {
         flex-direction: column;
     }
 
 
-#apresentação #objetivo #futuro{
-    width: auto;
-}
-header{
-    text-align: center;
-}
+    #apresentação #objetivo #futuro {
+        width: auto;
+    }
+
+    header {
+        text-align: center;
+    }
 }
 
-table{
+table {
     background: var(--blue);
 }
